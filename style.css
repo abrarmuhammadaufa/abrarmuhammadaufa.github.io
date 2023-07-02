@@ -1,0 +1,125 @@
+body {
+  font-family: Kaisei Opti !important;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ffffff;
+}
+
+#projects {
+  background-color: #ffffff
+}
+
+section {
+  padding-top: 0rem;
+}
+
+.card {
+  align-items: center;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #214430;
+  position: relative;
+  display: flex;
+}
+
+.row.text-center.mb-3 {
+  color: #ffffff;
+}
+
+.row.text-center.mb-5 {
+  color: #ffffff;
+}
+
+.col-md-3.mb-3 {
+  border-radius: 25px;
+  background: #214430;
+  padding: 20px;
+  width: 445px;
+  height: 200px;
+  margin:30px;
+}
+
+.card.p-5 {
+  background-color: transparent;
+  border: transparent;
+}
+
+.row.justify-content-center.align-items-center form input {
+  position: absolute;
+  width: 1224px;
+  height: 72px;
+  left: 79px;
+  top: 286px;
+  padding: 8px 306px;
+  font-size: 30px;
+  text-align: center;
+  background: rgba(56, 113, 80, 0.25);
+  border-radius: 6px;
+}
+
+.row.justify-content-center.align-items-center form button {
+  position: absolute;
+  width: 96px;
+  height: 46px;
+  left: 1329px;
+  top: 299px;
+
+  background: rgba(205, 219, 211, 0.56);
+  border-radius: 6px;
+}
+
+.row.justify-content-center.align-items-center.pb-5 {
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-fluid .justify-content-center .row .justify-content-center .col-md-2 .mb-5 .justify-content-center {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container-fluid .justify-content-center .row .justify-content-center .popup-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+.container-fluid .justify-content-center .row .justify-content-center .popup-img span {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #fff;
+  cursor:  pointer;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+.container-fluid .justify-content-center .row .justify-content-center .popup-img img {
+  position: absolute;
+  top: 50%;
+  left:  50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.container .mt-5 .mb-5 {
+  width: 100%;
+  display: flex;
+}
+
+.row .col-md-6 .mb-4 .input .placeholder {
+    text-align: left;
+}
